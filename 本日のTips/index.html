@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本日のTIPS1</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.css">
+    
+</head>
+<body>
+    <div class="box">
+        <div class="box-inner">
+            <p>p要素１ height: 100px;</p>
+            <p>p要素２ height: 100px;</p>
+            <p>p要素３ height: 100px; width: 300px;</p>
+            <p>p要素４ height: 100px;</p>
+        </div>
+
+        <div class="box-inner">
+            <span>span要素 高さ・幅を指定できない</span>
+            <a href="">a要素 高さ・幅を指定できない</a>
+        </div>
+
+        <div class="box-center-inner">
+            <p>文字が中央に寄ります。<br>p要素にtext-algin: center;を指定</p>
+            <div class="box-center">
+                <a href="">インライン要素が中央に寄ります。div要素にtext-align: center;を指定</a>
+            </div>
+            <div class="box-margin">ブロック要素にwidth:300px;<br>margin: 0 auto;を指定</div>
+        </div>
+
+        <div class="flex-container">
+            <div class="flex-item">flexアイテム１</div>
+            <div class="flex-item">flexアイテム２</div>
+            <div class="flex-item">flexアイテム３</div>
+            <div class="flex-item">flexアイテム４</div>
+        </div>
+
+        <div class="js-box">背景色が変わります</div>
+
+
+        <div class="modal-box">
+<!-- <div class="gallery-inner">
+    <a href="#modal" class="gallery-a"><img src="./img/earth.png" alt="地球" class="gallery-img"></a>
+    <a href="#modal" class="gallery-a"><img src="./img/hosizora.png" alt="星空" class="gallery-img"></a>
+    <a href="#modal" class="gallery-a"><img src="./img/iss.png" alt="宇宙ステーション" class="gallery-img"></a>
+    <a href="#modal" class="gallery-a"><img src="./img/man.png" alt="男性" class="gallery-img"></a>
+    <a href="#modal" class="gallery-a"><img src="./img/shuttle.png" alt="スペースシャトル" class="gallery-img"></a>
+    <a href="#modal" class="gallery-a"><img src="./img/star.png" alt="星" class="gallery-img"></a>
+    <a href="#modal" class="gallery-a"><img src="./img/universe.png" alt="銀河" class="gallery-img"></a>
+    <a href="#modal" class="gallery-a"><img src="./img/woman.png" alt="女性" class="gallery-img"></a>
+    <a href="#modal" class="gallery-a"><img src="./img/サンセット.png" alt="夕焼け" class="gallery-img"></a>
+</div>             -->
+<a href="#modal">押すとモーダルウィンドウが開きます。</a>
+<!-- remodal_start -->
+<div class="remodal" data-remodal-id="modal">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <h1>Remodal</h1>
+  <p>
+	レスポンシブ、軽量、高速、CSSアニメーションと同期、完全にカスタマイズ可能なモーダルウィンドウプラグイン。
+  </p>
+  <!-- <img src="" alt="" class="modal-img"> -->
+  <br>
+  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+</div>
+<!-- remodal_end -->
+    </div>
+
+
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

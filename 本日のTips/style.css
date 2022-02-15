@@ -1,0 +1,114 @@
+.box-inner {
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid #707070;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.box-inner p {
+    height: 100px;
+    line-height: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-inner p:nth-of-type(1) {
+    background-color: rgb(231, 177, 177);
+}
+.box-inner p:nth-of-type(2) {
+    background-color: rgb(183, 238, 183);
+}
+.box-inner p:nth-of-type(3) {
+    background-color: rgb(172, 172, 214);
+    width: 300px;
+}
+.box-inner p:nth-of-type(4) {
+    background-color: rgb(221, 221, 176);
+}
+.box-inner span {
+    background-color: greenyellow;
+}
+.box-inner a {
+    color: #ffffff;
+    background-color: indianred;
+}
+/* 中央寄せ */
+.box-center-inner p {
+    border: 1px solid rgb(135, 135, 233);
+    padding: 50px 0;
+    text-align: center;
+}
+.box-center {
+    padding: 50px;
+    border: 1px solid #111111;
+    text-align: center;
+}
+.box-center a {
+    padding: 10px;
+    background-color: rgb(223, 132, 132);
+}
+.box-margin {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(132, 219, 132);
+    padding: 50px;
+}
+/* flex-box */
+.flex-container {
+    display: flex;
+    justify-content: end;
+    padding: 50px;
+    border: 1px solid #111111;
+}
+.flex-item:nth-of-type(1) {
+    padding: 50px;
+    border: 1px solid green;
+    background-color: rgb(148, 228, 148);
+}
+.flex-item:nth-of-type(2) {
+    padding: 50px;
+    border: 1px solid blue;
+    background-color: rgb(138, 138, 209);
+}
+.flex-item:nth-of-type(3) {
+    padding: 50px;
+    border: 1px solid red;
+    background-color: rgb(214, 138, 138);
+}
+.flex-item:nth-of-type(4) {
+    padding: 50px;
+    border: 1px solid rgb(194, 194, 113);
+    background-color: rgb(211, 211, 145);
+}
+/* JavaScript読み込み順 */
+.js-box {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Remodal */
+.modal-box {
+    margin-top: 100px;
+}
+.gallery-inner {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 30px;
+    justify-content: center;
+}
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.modal-img {
+    width: 100%;
+    height: auto;
+}
